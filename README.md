@@ -1,17 +1,26 @@
 # Bankist
-This is a web application which allows for the use of basic banking features. 
+This project is a simulation of a basic online banking application interface. 
+It demonstrates how users can interact with their accounts, perform various banking transactions, and view their financial history.
 
-->Login using username and password
+->**User Authentication**: Implemented secure login using PIN-based authentication to ensure account security.
 
-->Transfer money between the user accounts and see their accounts update!
+->**Transaction History**: Displayed a comprehensive transaction history, including deposit and withdrawal details with formatted dates.
 
-->Ask for a loan amount
+->**Balance Calculation**: Calculated and displayed real-time account balances based on transaction history.
 
-->Delete the account
+->**Sorting Transactions**: Allowed users to sort transaction history by amount, making it easier to analyze financial activities.
 
-->The user gets logs out in 2 minute of inactivity
+->**Currency Formatting**: Formatted transaction amounts as currency using the appropriate locale and currency code.
+
+->**Summary Display**: Presented a summary of total deposits, withdrawals, and earned interest for each account.
+
+->**Loan Request**: Enabled users to request loans, with validation based on previous transaction history.
+
+->**Logout Timer**: Implemented an automatic log-out timer for enhanced account security after a period of inactivity.
+
 
 //sample username and password
+
 username 1- tt
 password - 1111
 
@@ -20,4 +29,4 @@ password = 2222
 
 
 Project sample 
-![image](https://user-images.githubusercontent.com/77636438/213880445-0e3673da-e2c4-43ad-9971-2c77663a5414.png)
+![image](Bankist_snap.png)
